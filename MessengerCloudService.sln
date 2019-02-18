@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "MessengerCloudService", "MessengerCloudService\MessengerCloudService.ccproj", "{EF14B9CB-DB5F-4C81-9CDE-BA12475794A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerServiceWebRole", "MessengerServiceWebRole\MessengerServiceWebRole.csproj", "{D32129A4-7AE8-4438-BAFC-C541F819432D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF14B9CB-DB5F-4C81-9CDE-BA12475794A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF14B9CB-DB5F-4C81-9CDE-BA12475794A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF14B9CB-DB5F-4C81-9CDE-BA12475794A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF14B9CB-DB5F-4C81-9CDE-BA12475794A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32129A4-7AE8-4438-BAFC-C541F819432D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32129A4-7AE8-4438-BAFC-C541F819432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32129A4-7AE8-4438-BAFC-C541F819432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32129A4-7AE8-4438-BAFC-C541F819432D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {671B4933-B1E2-4A23-BAE7-3502F21E96A2}
+	EndGlobalSection
+EndGlobal
